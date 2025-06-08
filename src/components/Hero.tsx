@@ -26,7 +26,7 @@ const Hero = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div className="text-center">
               <Icon
-                name="Clock"
+                name="clock"
                 size={32}
                 className="text-yellow-400 mx-auto mb-3"
               />
@@ -35,7 +35,7 @@ const Hero = () => {
             </div>
             <div className="text-center">
               <Icon
-                name="Shield"
+                name="shield"
                 size={32}
                 className="text-yellow-400 mx-auto mb-3"
               />
@@ -44,7 +44,7 @@ const Hero = () => {
             </div>
             <div className="text-center">
               <Icon
-                name="Star"
+                name="star"
                 size={32}
                 className="text-yellow-400 mx-auto mb-3"
               />
@@ -59,7 +59,7 @@ const Hero = () => {
           size="lg"
           className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-lg px-12 py-4 rounded-full transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-yellow-500/25"
         >
-          <Icon name="MessageCircle" size={24} className="mr-3" />
+          <Icon name="message-circle" size={24} className="mr-3" />
           Заказать в Telegram
         </Button>
 
