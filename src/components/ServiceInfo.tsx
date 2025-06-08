@@ -4,22 +4,22 @@ import Icon from "@/components/ui/icon";
 const ServiceInfo = () => {
   const features = [
     {
-      icon: "Truck",
+      icon: "truck",
       title: "Доставка 24/7",
       description: "Работаем круглосуточно для вашего удобства",
     },
     {
-      icon: "CreditCard",
+      icon: "credit-card",
       title: "Удобная оплата",
       description: "Наличные или карта при получении",
     },
     {
-      icon: "MapPin",
+      icon: "map-pin",
       title: "По всему городу",
       description: "Доставляем в любую точку Новосибирска",
     },
     {
-      icon: "Phone",
+      icon: "phone",
       title: "Быстрый заказ",
       description: "Оформите заказ в Telegram за минуту",
     },

@@ -20,11 +20,11 @@ const Footer = () => {
             </h4>
             <div className="space-y-2 text-gray-400">
               <div className="flex items-center justify-center gap-2">
-                <Icon name="MessageCircle" size={16} />
+                <Icon name="message-circle" size={16} />
                 <span>Telegram: @ALCOJET54</span>
               </div>
               <div className="flex items-center justify-center gap-2">
-                <Icon name="MapPin" size={16} />
+                <Icon name="map-pin" size={16} />
                 <span>Новосибирск</span>
               </div>
             </div>
@@ -36,7 +36,7 @@ const Footer = () => {
             </h4>
             <div className="space-y-2 text-gray-400">
               <div className="flex items-center justify-center gap-2">
-                <Icon name="Clock" size={16} />
+                <Icon name="clock" size={16} />
                 <span>24/7</span>
               </div>
               <p className="text-sm">Ежедневно, без выходных</p>
@@ -49,7 +49,7 @@ const Footer = () => {
             </h4>
             <div className="space-y-2 text-gray-400">
               <div className="flex items-center justify-center gap-2">
-                <Icon name="Truck" size={16} />
+                <Icon name="truck" size={16} />
                 <span>От 30 минут</span>
               </div>
               <p className="text-sm">По всему городу</p>

@@ -35,7 +35,7 @@ const Hero = () => {
             </div>
             <div className="text-center">
               <Icon
-                name="shield"
+                name="shield-check"
                 size={32}
                 className="text-yellow-400 mx-auto mb-3"
               />
