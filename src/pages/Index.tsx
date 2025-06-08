@@ -1,12 +1,22 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from "react";
+import AgeVerification from "@/components/AgeVerification";
+import Hero from "@/components/Hero";
+import ServiceInfo from "@/components/ServiceInfo";
+import Footer from "@/components/Footer";
 
 const Index = () => {
+  const [isAgeVerified, setIsAgeVerified] = useState(false);
+
+  const handleAgeVerified = () => {
+    setIsAgeVerified(true);
+  };
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
-      </div>
+    <div className="min-h-screen">
+      {!isAgeVerified && <AgeVerification onVerified={handleAgeVerified} />}
+      <Hero />
+      <ServiceInfo />
+      <Footer />
     </div>
   );
 };
